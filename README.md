@@ -4,6 +4,8 @@
 
 GryFlux-Ascend-JODLT 是当前项目中的 JODLT 应用实现。它在 GryFlux 的事件驱动异步 DAG 调度框架之上，集成 Ascend ACL 推理资源、OpenCV 图像处理、多目标检测跟踪、XFeat 特征匹配、单应矩阵估计以及前景/背景码流提取，面向嵌入式 AI 设备上的实时图像序列处理。
 
+在GryFlux的框架基础上实现了主机/设备内存池、AclRuntime资源管理、通用模型推理资源上下文管理等组件。
+
 ---
 
 ## ✨ 核心特性
